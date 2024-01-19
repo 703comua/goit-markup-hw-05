@@ -714,6 +714,8 @@ body {
 	height: 120px;
 	resize: none;
 	padding: 8px 16px;
+	letter-spacing: 0.04em;
+	color: rgba(46, 47, 66, 0.4);
 }
 
 .modal__input.modal__input-textarea::placeholder {
@@ -725,6 +727,7 @@ body {
 	display: flex;
 	align-items: center;
 	gap: 8px;
+	letter-spacing: 0.04em;
 }
 
 .modal__checkbox {
