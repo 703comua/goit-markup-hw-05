@@ -651,15 +651,16 @@ body {
 	margin-bottom: 16px;
 }
 
-.modal__label {}
-
-.modal__label-title {
+.modal__label {
 	color: #8E8F99;
 	font-size: 12px;
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	margin-bottom: 4px;
-	display: inline-block;
+	display: block;
+}
+
+.modal__label-title {
 }
 
 .modal__input {
@@ -715,7 +716,7 @@ body {
 
 .modal__checkbox {}
 
-.terms__text {
+.terms__label {
 	color: #8E8F99;
 	font-size: 12px;
 	line-height: 1.17;
