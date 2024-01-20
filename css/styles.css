@@ -724,9 +724,7 @@ body {
 }
 
 .terms__label {
-	display: flex;
-	align-items: center;
-	gap: 8px;
+
 	letter-spacing: 0.04em;
 }
 
@@ -775,6 +773,7 @@ body {
 
 .modal__checkbox-span {
 	display: inline-flex;
+	margin-right: 8px;
 	align-items: center;
 	justify-content: center;
 	width: 16px;
